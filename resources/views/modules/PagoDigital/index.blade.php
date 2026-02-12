@@ -1,5 +1,5 @@
 <x-page>
-    <div class="max-w-7xl mx-20 px-2 py-2">
+    <div class="max-w-7xl mx-auto px-2 py-2">
         <div class="text-center mb-10">
             <h1 class="text-3xl font-bold text-gray-900 mb-2">Métodos de pago</h1>
             <p class="text-gray-500 text-sm">Confirma los detalles de tu pago y prepárate para la carretera. Selecciona el método que
@@ -32,9 +32,12 @@
             }
         </style>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            {{-- Left Column: Payment Methods --}}
 
+
+        <!-- -------------------------------------------------- CUADRO CONTENEDOR DE INFORMACION------------------------------------------------- -->
+
+        <div class="flex justify-center w-full">
+            {{-- Left Column: Payment Methods --}}
 
             {{-- Right Column: Summary --}}
             <x-card class="text-center p-8 max-w-md">
